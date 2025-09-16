@@ -1,7 +1,9 @@
 # Experiment-3
 
-This program introduces the use of the Pandas library in Python to read, inspect, and manage data from a CSV file. It begins by importing Pandas and loading the dataset cars.csv into a DataFrame named cars. This step is essential, as it converts the external CSV file into a structured format that can be easily manipulated and analyzed. By displaying the DataFrame immediately after loading, the code allows verification that the dataset has been successfully imported and is ready for use.
+# Problem 1
 
-To better understand the dataset, the program then applies the head() function, which shows the first five rows of the DataFrame. This preview helps confirm the structure of the data and reveals the initial entries of the table. Following this, the tail() function is used to display the last five rows, which provides insight into the ending portion of the dataset. Together, these two functions give a quick overview of the dataset from both ends and ensure its completeness.
+The program to this problem begins by importing Pandas and loading the dataset cars.csv into a DataFrame named cars. This step is essential, as it converts the external CSV file into a structured format that can be easily manipulated and analyzed. By displaying the DataFrame immediately after loading, the code allows verification that the dataset has been successfully imported and is ready for use.
 
-Finally, the notebook includes a line that converts the program into a Python script using the to_csv() method. By saving the DataFrame to a new .py file, the work done in the notebook can be exported and reused outside the Jupyter environment. Overall, Problem 1 serves as a practical introduction to Pandas by demonstrating how to load a dataset, inspect its contents, and preserve the processed data for future use.
+The program then used the head() function, which shows the first five rows of the DataFrame. This preview helps confirm the structure of the data and reveals the initial entries of the table. Following this, the tail() function was used to display the last five rows, which provides insight into the ending portion of the given dataset. Together, these two functions give a quick overview of the dataset from both ends and ensure its completeness.
+
+The last line of the program converts the program into a Python script or .py file by using the to_csv(). 
