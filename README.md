@@ -11,7 +11,7 @@ The last line of the program converts the program into a Python script or .py fi
 
 # Problem 2
 
-The program to Problem 2 begins by importing Pandas and loading the cars.csv file into a DataFrame called cars. With the dataset prepared, the code then demonstrates different ways to access subsets of the data using indexing and selection functions.
+The program to Problem 2 begins by importing Pandas and loading the cars.csv file into a DataFrame named cars. With the dataset prepared, the code then demonstrates different ways to access subsets of the data using indexing and selection functions.
 
 The first operation uses the iloc[] to extract the first five rows of only the odd-numbered columns. The function cars.iloc[0:5, [1,3,5,7,9,11]] specifies the range of rows and the particular column positions, effectively narrowing the dataset to a smaller, more targeted table. A print() statement is included to label the output, making it clear what is being displayed.
 
